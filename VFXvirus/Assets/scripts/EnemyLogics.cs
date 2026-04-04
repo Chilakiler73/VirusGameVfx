@@ -3,9 +3,16 @@ using System.Collections;
 
 public class EnemyLogics : MonoBehaviour
 {
+    [Header("Salud y Efectos del Enemigo")]
     public float health = 50f;
     public Color damageColor = Color.red;
     public float flashDuration = 0.15f;
+
+    [Header("Ataque al Jugador")]
+    public float damageToPlayer = 20f;
+    // --- NUEVO: Variables para el "delay" (Cooldown) ---
+    public float attackRate = 2.0f; // Segundos que tarda en volver a morder
+    private float nextAttackTime = 0f; // El cronómetro interno del virus
 
     private Renderer myRenderer;
     private Color originalColor;
@@ -13,24 +20,17 @@ public class EnemyLogics : MonoBehaviour
 
     void Start()
     {
-        // Buscamos el renderer en este objeto o en sus hijos (común en modelos FBX)
         myRenderer = GetComponentInChildren<Renderer>();
-
         if (myRenderer != null)
         {
-            // Guardamos el color actual del Albedo
             originalColor = myRenderer.material.color;
-        }
-        else
-        {
-            Debug.LogError("¡No se encontró un Renderer en " + gameObject.name + "!");
         }
     }
 
     public void TakeDamage(float amount)
     {
         health -= amount;
-        Debug.Log("Vida restante: " + health);
+        Debug.Log("Vida restante del enemigo: " + health);
 
         if (!isFlashing && myRenderer != null)
         {
@@ -46,15 +46,9 @@ public class EnemyLogics : MonoBehaviour
     IEnumerator FlashRed()
     {
         isFlashing = true;
-
-        // Cambiamos el color del material (esto tiñe la textura Albedo)
         myRenderer.material.color = damageColor;
-
         yield return new WaitForSeconds(flashDuration);
-
-        // Restauramos el color original
         myRenderer.material.color = originalColor;
-
         isFlashing = false;
     }
 
@@ -62,5 +56,39 @@ public class EnemyLogics : MonoBehaviour
     {
         Debug.Log("Enemigo eliminado");
         Destroy(gameObject);
+    }
+
+    // --- ACTUALIZADO: Detección física si chocan los cuerpos sólidos ---
+    void OnCollisionStay(Collision collision)
+    {
+        // Verificamos si es el jugador Y si ya pasó el tiempo de delay
+        if (collision.gameObject.CompareTag("Player") && Time.time >= nextAttackTime)
+        {
+            PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
+
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(damageToPlayer);
+                // Reiniciamos el cronómetro para el siguiente ataque
+                nextAttackTime = Time.time + attackRate;
+            }
+        }
+    }
+
+    // --- ACTUALIZADO: Detección por el Hitbox (La esfera invisible) ---
+    void OnTriggerStay(Collider other)
+    {
+        // Verificamos si es el jugador Y si ya pasó el tiempo de delay
+        if (other.CompareTag("Player") && Time.time >= nextAttackTime)
+        {
+            PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
+
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(damageToPlayer);
+                // Reiniciamos el cronómetro para el siguiente ataque
+                nextAttackTime = Time.time + attackRate;
+            }
+        }
     }
 }
