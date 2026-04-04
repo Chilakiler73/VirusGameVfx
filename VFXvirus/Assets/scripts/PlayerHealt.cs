@@ -25,4 +25,17 @@ public class PlayerHealth : MonoBehaviour
 
         Debug.Log("¡Botiquín recogido! Vida actual: " + currentHealth);
     }
+    public void TakeDamage(float damageAmount)
+    {
+        currentHealth -= damageAmount;
+        Debug.Log("¡El virus te atacó! Vida restante: " + currentHealth);
+
+        // Comprobamos si la vida se agotó
+        if (currentHealth <= 0)
+        {
+            currentHealth = 0;
+            Debug.Log("¡El jugador ha sido infectado/eliminado!");
+            // PENDIENTE LOGICA DE GAME OVER
+        }
+    }
 }

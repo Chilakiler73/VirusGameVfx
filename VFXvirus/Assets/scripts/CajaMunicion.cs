@@ -21,6 +21,8 @@ public class CajaMunicion : MonoBehaviour
                 // Destruimos la caja de munición de la escena
                 Destroy(gameObject);
             }
+            Debug.Log("Caja de munición recogida. Munición actual: " + gun.currentAmmo);
         }
     }
+
 }
