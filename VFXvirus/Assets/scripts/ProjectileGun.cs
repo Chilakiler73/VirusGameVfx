@@ -36,6 +36,7 @@ public class ProjectileGun : MonoBehaviour
 
     void Shoot()
     {
+        Debug.Log("¡Disparo realizado! Balas restantes: " + (currentAmmo - 1));
         currentAmmo--; // Se disminuye la munición al disparar
 
         // 1. Creamos la bala en la posición y rotación del firePoint
