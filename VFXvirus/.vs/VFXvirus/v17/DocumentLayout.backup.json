@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\GitHub\\VirusGameVfx\\VFXvirus\\",
+  "WorkspaceRootPath": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|c:\\github\\virusgamevfx\\vfxvirus\\assets\\shader\\acido.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|solutionrelative:assets\\shader\\acido.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|c:\\users\\pablo\\documents\\github\\virusgamevfx\\vfxvirus\\assets\\scripts\\playerhealt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|c:\\users\\pablo\\documents\\github\\virusgamevfx\\vfxvirus\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\assets\\scripts\\cameralook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameralook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\assets\\scripts\\enemylogics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemylogics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\assets\\scripts\\projectilegun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectilegun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,19 +39,102 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Acido.shader",
-              "DocumentMoniker": "C:\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\Shader\\Acido.shader",
-              "RelativeDocumentMoniker": "Assets\\Shader\\Acido.shader",
-              "ToolTip": "C:\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\Shader\\Acido.shader",
-              "RelativeToolTip": "Assets\\Shader\\Acido.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2026-04-02T01:50:39.167Z",
+              "Title": "PlayerHealt.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\scripts\\PlayerHealt.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerHealt.cs",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\scripts\\PlayerHealt.cs",
+              "RelativeToolTip": "Assets\\scripts\\PlayerHealt.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T00:23:43.34Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\scripts\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Bullet.cs",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\scripts\\Bullet.cs",
+              "RelativeToolTip": "Assets\\scripts\\Bullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T23:53:47.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CameraLook.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\scripts\\CameraLook.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\CameraLook.cs",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\scripts\\CameraLook.cs",
+              "RelativeToolTip": "Assets\\scripts\\CameraLook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T23:53:44.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemyLogics.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\scripts\\EnemyLogics.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\EnemyLogics.cs",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\scripts\\EnemyLogics.cs",
+              "RelativeToolTip": "Assets\\scripts\\EnemyLogics.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T23:53:41.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectileGun.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\scripts\\ProjectileGun.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ProjectileGun.cs",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\scripts\\ProjectileGun.cs",
+              "RelativeToolTip": "Assets\\scripts\\ProjectileGun.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T23:53:37.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T23:53:05.076Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }
