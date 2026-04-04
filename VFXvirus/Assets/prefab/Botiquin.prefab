@@ -87,7 +87,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 4, y: 3.9999995, z: 1.5999997}
+  m_Size: {x: 6, y: 6, z: 6}
   m_Center: {x: -5.6843415e-15, y: 0, z: 0.79999983}
 --- !u!114 &8782586396496103031
 MonoBehaviour:
@@ -101,3 +101,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54c932fa7beba8f4e8d1db2d9d23505c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Botiquin
+  healAmount: 25

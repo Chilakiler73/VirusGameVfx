@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\assets\\scripts\\projectilegun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|c:\\users\\pablo\\documents\\github\\virusgamevfx\\vfxvirus\\assets\\scripts\\cajamunicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cajamunicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|c:\\users\\pablo\\documents\\github\\virusgamevfx\\vfxvirus\\assets\\scripts\\projectilegun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectilegun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|c:\\users\\pablo\\documents\\github\\virusgamevfx\\vfxvirus\\assets\\scripts\\botiquin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\assets\\scripts\\botiquin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\botiquin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|c:\\users\\pablo\\documents\\github\\virusgamevfx\\vfxvirus\\assets\\scripts\\playerhealt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\assets\\scripts\\playerhealt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59B0B11E-75ED-7607-993F-479A28A7F336}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "CajaMunicion.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\scripts\\CajaMunicion.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\CajaMunicion.cs",
+              "ToolTip": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\scripts\\CajaMunicion.cs",
+              "RelativeToolTip": "Assets\\scripts\\CajaMunicion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T01:58:13.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Botiquin.cs",
               "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\scripts\\Botiquin.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Botiquin.cs",
@@ -50,12 +67,11 @@
               "RelativeToolTip": "Assets\\scripts\\Botiquin.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwBkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T00:25:29.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-04T00:25:29.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PlayerHealt.cs",
               "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\scripts\\PlayerHealt.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\PlayerHealt.cs",
@@ -63,12 +79,11 @@
               "RelativeToolTip": "Assets\\scripts\\PlayerHealt.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T00:23:43.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-04T00:23:43.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\scripts\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Bullet.cs",
@@ -80,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CameraLook.cs",
               "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\scripts\\CameraLook.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\CameraLook.cs",
@@ -92,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "EnemyLogics.cs",
               "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\scripts\\EnemyLogics.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\EnemyLogics.cs",
@@ -104,20 +119,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProjectileGun.cs",
               "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\scripts\\ProjectileGun.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\ProjectileGun.cs",
               "ToolTip": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\scripts\\ProjectileGun.cs",
               "RelativeToolTip": "Assets\\scripts\\ProjectileGun.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAuwCYAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCYAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-03T23:53:37.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\Pablo\\Documents\\GitHub\\VirusGameVfx\\VFXvirus\\Assets\\scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\PlayerMovement.cs",
