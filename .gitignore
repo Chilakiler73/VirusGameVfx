@@ -7,3 +7,10 @@
 **/Library/
 **/Temp/
 **/Obj/
+/[Vv][Ff][Xx]virus/[Ll]ogs/
+/[Vv][Ff][Xx]virus/[Uu]ser[Ss]ettings/
+/[Vv][Ff][Xx]virus/[Ll]ibrary/
+/[Vv][Ff][Xx]virus/[Oo]bj/
+.vs/
+*.csproj
+*.sln
